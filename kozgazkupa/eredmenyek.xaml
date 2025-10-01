@@ -1,0 +1,83 @@
+﻿<Window x:Class="kozgazkupa.eredmenyek"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kozgazkupa"
+        mc:Ignorable="d"
+        Title="Eredmények" Height="500" Width="800"
+        Background="LightGray">
+
+    <Grid Margin="20" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="200"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="80"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Grid.ColumnSpan="2" Content="Meccs eredmények"
+           FontSize="34" FontWeight="Bold" Foreground="DarkGreen"
+           HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Grid.Row="1" Grid.Column="0" Content="Meccs"
+           FontSize="22" FontWeight="Bold" Foreground="DarkBlue"
+           HorizontalAlignment="Center" VerticalAlignment="Center" Background="LightYellow" Padding="5"/>
+        <Label Grid.Row="1" Grid.Column="1" Content="Eredmény"
+           FontSize="22" FontWeight="Bold" Foreground="DarkBlue"
+           HorizontalAlignment="Center" VerticalAlignment="Center" Background="LightYellow" Padding="5"/>
+
+        <TextBlock x:Name="mText1" Grid.Row="2" Grid.Column="0" Text="1. meccs"
+           FontSize="20" FontWeight="Bold" Foreground="DarkRed"
+           VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBox x:Name="m1" Grid.Row="2" Grid.Column="1" Width="150" Height="40" FontSize="18"
+             HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <TextBlock x:Name="mText2" Grid.Row="3" Grid.Column="0" Text="2. meccs"
+           FontSize="20" FontWeight="Bold" Foreground="DarkRed"
+           VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBox x:Name="m2" Grid.Row="3" Grid.Column="1" Width="150" Height="40" FontSize="18"
+             HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <TextBlock x:Name="mText3" Grid.Row="4" Grid.Column="0" Text="3. meccs"
+           FontSize="20" FontWeight="Bold" Foreground="DarkRed"
+           VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBox x:Name="m3" Grid.Row="4" Grid.Column="1" Width="150" Height="40" FontSize="18"
+             HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <TextBlock x:Name="mText4" Grid.Row="5" Grid.Column="0" Text="4. meccs"
+           FontSize="20" FontWeight="Bold" Foreground="DarkRed"
+           VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBox x:Name="m4" Grid.Row="5" Grid.Column="1" Width="150" Height="40" FontSize="18"
+             HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <TextBlock x:Name="mText5" Grid.Row="6" Grid.Column="0" Text="5. meccs"
+           FontSize="20" FontWeight="Bold" Foreground="DarkRed"
+           VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBox x:Name="m5" Grid.Row="6" Grid.Column="1" Width="150" Height="40" FontSize="18"
+             HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <TextBlock x:Name="mText6" Grid.Row="7" Grid.Column="0" Text="6. meccs"
+           FontSize="20" FontWeight="Bold" Foreground="DarkRed"
+           VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBox x:Name="m6" Grid.Row="7" Grid.Column="1" Width="150" Height="40" FontSize="18"
+             HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Button Content="Mentés" Grid.Row="8" Grid.ColumnSpan="2"
+            Width="150" Height="50" FontSize="20"
+            HorizontalAlignment="Center" VerticalAlignment="Center"
+            Click="Mentés_Click"/>
+    </Grid>
+
+</Window>
