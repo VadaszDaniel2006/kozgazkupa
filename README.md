@@ -1,0 +1,2 @@
+Vadász Dániel, Palkovics Tamás, 2025.10.2
+A program 4 focicsapatot kér be ahova játékosokat lehet fölvinni. A játékosoknak meg lehetadni a nevén kívül a mezszámát, illetve életkorár. Ha fölvettük a 4 csapatott a játékosskal akkol át dob az eredmények oldalra. Itt a csapatok körmeccset játszanak egymással. Az eredményeket  mi adjuk meg. Ha sz összes meccset megadtuk , a program kiszámolja a tabella állását makd kiírja egy txt-fájlba.
